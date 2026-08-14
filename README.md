@@ -1,7 +1,7 @@
 # ICDAR 2026 CircleID — Pen Classification
 
-Solution for the **ICDAR 2026 CircleID Pen Classification** challenge: given a small image of a
-hand-drawn circle, identify which of 8 pens drew it.
+Solution for the [**ICDAR 2026 CircleID Pen Classification**](https://www.kaggle.com/competitions/icdar-2026-circleid-pen-classification)
+challenge: given a small image of a hand-drawn circle, identify which of 8 pens drew it.
 
 **Final result: 9th place.** Private LB 0.91948, public LB 0.94202 — a rank-averaged ensemble
 of 5 CNN/transformer backbones. 4th on the public leaderboard before the private split was
@@ -146,7 +146,8 @@ python src/ensemble_rank_average.py --optimize
 
 ### 1. Data
 
-Download the competition data from Kaggle and extract it into the repo root:
+Download the [competition data](https://www.kaggle.com/competitions/icdar-2026-circleid-pen-classification/data)
+from Kaggle and extract it into the repo root:
 
 ```
 icdar-2026-circleid-pen-classification/
